@@ -22,7 +22,7 @@ Additional widgets:
 4. Weather
 5. Bookmark
 
-We have used HTML, SCSS, TypeScript and JavaScript to build our project.
+The project is written in Typescript. For UI, we used react and for styling we used SCSS.
 
 To run our project as a Chrome web extension, follow these steps: 
 1. Download the whole project

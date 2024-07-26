@@ -1,0 +1,41 @@
+@use "@components/utils.scss" as utils;
+
+.RequirePermissions {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    overflow: auto;
+    @include utils.scroll-mixin-darker();
+
+    &.compact {
+        cursor: pointer;
+    }
+
+    .text {
+        font-weight: 300;
+    }
+
+    .additional-info {
+        margin-top: 1rem;
+    }
+
+    .grant-button {
+        align-self: center;
+        margin-top: 36px;
+        white-space: break-spaces;
+    }
+}
+
+.RequirePermissions-modal {
+    max-width: 600px;
+
+    .grant-button {
+        align-self: center;
+        margin-top: 36px;
+    }
+
+    .additional-info {
+        margin-top: 1rem;
+    }
+}

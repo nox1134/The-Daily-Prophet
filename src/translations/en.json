@@ -1,0 +1,227 @@
+{
+    "translation": {
+        "appName": "The-Daily-Prophet",
+        "appDescription": "Customizable new tab: compose your own page from widgets",
+        "appActionTitle": "Open new tab",
+        "icon": "Icon",
+        "title": "Title",
+        "url": "URL",
+        "urls": "URLs",
+        "save": "Save",
+        "import": "Import",
+        "add": "Add",
+        "reload": "Reload",
+        "noResults": "No results",
+        "example": "Example",
+        "timezone": "Timezone",
+        "refreshing": "Refreshing...",
+        "refresh": "Refresh",
+        "startTypingToSearch": "Start typing to search...",
+        "search": "Search...",
+        "loading": "Loading...",
+        "lastUpdatedAt": "Last updated at {{datetime}}",
+        "home": "Home",
+        "availableOnlyInEnglish": "Available only in English",
+        "px": "px",
+
+        "editWidget": "Edit widget",
+        "configureWidget": "Configure widget",
+        "addWidget": "Add widget",
+        "next": "Next",
+        "back": "Back",
+        "icons": "Icons",
+        "customIcons": "Custom icons",
+        "canBeEmpty": "can be empty",
+
+        "iconsPicker": {
+            "customIconsInfo": "Custom icons are icons which you upload for later use.",
+            "customIconsAbsent": "Currently, you don't have any custom icons. To upload your first custom icon please head to settings.",
+            "iconFamily": "Icons family",
+            "allIcons": "All icons"
+        },
+
+        "settings": {
+            "title": "Settings",
+            "general": {
+                "title": "General",
+                "language": "Language",
+                "translationInfo": "Translations into languages other than English or Ukrainian are provided by community. If you spot any mistake or untranslated string, help us fix it! <0>Here</0> is instruction how you can participate.",
+                "sidebarOrientation": "Sidebar orientation",
+                "sidebarOrientationOption-auto": "Based on window orientation",
+                "sidebarOrientationOption-vertical": "Always vertical",
+                "sidebarOrientationOption-horizontal": "Always horizontal",
+                "autoHideSidebar": "Automatically hide sidebar",
+                "newTabTitle": "New tab title",
+                "enableAnalytics": "Enable sending analytics",
+                "analyticsHintP1": "Analytics help me to better understand how users interact with extension and which features are used the most. It doesn't share any private information, such as the content of notes or bookmark URLs.",
+                "analyticsHintP2": "This helps me to develop a better product so I ask you to enable sending analytics. <0>Learn more.</0>",
+                "showBookmarksBar": "Show bookmarks bar",
+                "stealFocus": "Steal focus from the addressbar",
+                "stealFocusHint": "If enabled, this will force the browser to move focus from the address bar to this page when opening a new tab. You will be able to use the command menu (Cmd+K) without needing to move focus to the page manually (by clicking or pressing Tab).",
+                "automaticCompact": "Automatically switch to compact mode based on screen size",
+                "automaticCompactModeThreshold": "Switch to compact mode if screen size is smaller than",
+                "automaticCompactModeThresholdHint": "Your current screen width is {{screenWidth}}px",
+                "useCompact": "Always use compact mode",
+                "showAnimationOnOpen": "Show animation on open",
+                "showAnimationOnOpenHint": "If enabled, the extension will show a quick-loading animation which will hide the initial flicker of loading data and provide a better look.",
+                "hideEditButton": "Hide 'Edit folder' button",
+                "hideEditButtonHint": "Extra minimalistic, yeah.",
+                "rememberLastFolder": "Remember last open folder"
+            },
+            "customIcons": {
+                "title": "Custom icons",
+                "incorrectFormat": "Please provide valid file(s). Supports .png, .jpg, .gif, .jpeg and .svg",
+                "noIcons": "You don't have any custom icons yet.",
+                "iconName": "Icon name",
+                "invalidNames": "Some of the icons have an invalid name, please fix the names before saving.",
+                "nameContainsInvalidChars": "Name contains invalid characters, only letters, digits, - and _ are accepted.",
+                "saveIcons": "Save icons",
+                "supportedFormats": "Supports .png, .jpg, .gif and .svg. It's best to use square images between 128 and 256 pixels wide (not applicable to .svg).",
+                "importIcons": "Import icons"
+            },
+            "folders": {
+                "title": "Folders",
+                "createNew": "Create new folder",
+                "defaultName": "New folder"
+            },
+            "pluginSettings": {
+                "title": "Plugin settings"
+            }
+        },
+
+        "shortcuts": {
+            "title": "Shortcuts",
+            "showCheatsheet": "Show/hide shortcuts cheatsheet",
+            "toggleSettings": "Show/hide settings",
+            "displayCommandMenu": "Display command menu",
+            "closeMenuOrModal": "Close command menu or modal window",
+            "switchToFolderAbove": "Switch to folder above",
+            "switchToFolderBelow": "Switch to folder below",
+            "switchToNFolder": "Switch to 1st folder (works with other numbers too!)",
+            "editCurrentFolder": "Edit current folder",
+            "addNewWidget": "Add new widget to current folder"
+        },
+
+        "onboarding": {
+            "presets": {
+                "title": "New start",
+                "cta": "🚀 Just give me default setup"
+            }
+        },
+
+        "commandMenu": {
+            "name": "Global Command Menu",
+            "placeholder": "Enter a command",
+            "noWidgets": "Nothing here yet. Try adding some widgets to a folder."
+        },
+
+        "requirePermissions": {
+            "eh": "Eh?",
+            "modalTitle": "Additional permissions required",
+            "compactText": "Additional permissions required. Click to see details.",
+            "text": "This widget requires additional permissions:",
+            "apiPermissions": "API permissions",
+            "hostPermissions": "Host permissions",
+            "grant": "Grant permissions"
+        },
+
+        "bookmark-plugin": {
+            "name": "Bookmarks",
+            "widgetName": "Bookmark",
+            "groupWidgetName": "Bookmark group",
+            "openInGroup": "Open in a tab group",
+            "group": "Group",
+            "searchBookmarks": "Search bookmarks",
+            "checkStatus": "Check page status",
+            "checkStatusHint": "Extension will make request to page every 10-15 minutes in background to see if it's up. If server is unreachable or returns HTTP 5xx error it will be considered down. This will require additional permission. Checks won't be made while browser is closed or computer is sleeping.",
+            "checkingStatus": "Checking page status...",
+            "status": "Page is currently {{status}}, last status change was {{lastChange}}. Last checked {{lastCheck}}.",
+            "statusUp": "up",
+            "statusDown": "down",
+            "permissionExplanation": "Extension needs this permission to work around CORS. The wording presented by your browser might be daunting, but extension doesn't change or read any data from bookmarked websites.",
+            "openInNewTab": "Open in a new tab"
+        },
+        "calendar-plugin": {
+            "name": "Calendar",
+            "widgetName": "Calendar",
+            "firstDayOfWeek": "First day of the week"
+        },
+        "datetime-plugin": {
+            "name": "Date and time",
+            "widgetNameS": "Date and time - size S",
+            "widgetNameM": "Date and time - size M",
+            "withoutDate": "Without date",
+            "timeFormat": "Time format",
+            "dateFormat": "Date format",
+            "24hours": "24 hours"
+        },
+
+        "notes-plugin": {
+            "name": "Notes",
+            "noteTitle": "Note title",
+            "noteText": "Note text (markdown supported)",
+            "exampleTitle": "Shopping list",
+            "exampleText": "Veggies, ketchup, cheese, flour, olive oil"
+        },
+
+        "search-plugin": {
+            "name": "Internet search",
+            "widgetName": "Search",
+            "defaultProvider": "Default provider",
+            "searchProviderForQ": "Search {{provider}} for «{{query}}»"
+        },
+
+        "tasks-plugin": {
+            "name": "Tasks",
+            "todo": "ToDo",
+            "completeTask": "Complete «{{task}}»",
+            "taskDescription": "Task description...",
+            "noTasks": "No tasks here yet",
+            "exampleTask0": "Stupid walk for stupid mental health",
+            "exampleTask1": "Lay on the couch",
+            "exampleTask2": "Lay on the floor",
+            "exampleTask3": "Try not to cry"
+        },
+
+        "weather-plugin": {
+            "name": "Weather",
+            "weatherForecast": "Weather forecast",
+            "forecast": "Forecast",
+            "currentWeather": "Current weather",
+            "kmh": "km/h",
+            "ms": "m/s",
+            "mph": "mph",
+            "clearSky": "Clear sky",
+            "partlyCloudy": "Partly cloudy",
+            "fog": "Fog",
+            "drizzle": "Drizzle",
+            "freezingDrizzle": "Freezing drizzle",
+            "rain": "Rain",
+            "freezingRain": "Freezing rain",
+            "snow": "Snow",
+            "rainShower": "Rain shower",
+            "thunderstorm": "Thunderstorm",
+            "unknownCode": "Unknown weather code",
+            "selectCity": "Select city",
+            "temperatureUnit": "Temperature unit",
+            "speedUnit": "Wind speed unit",
+            "weatherCode": "weather code {{code}}"
+        },
+
+        "math-plugin": {
+            "name": "Math",
+            "calculator": "Calculator",
+            "expandWidgetName": "Calculator — expandable",
+            "cantCalc": "Can't calculate that"
+        },
+        "label-plugin": {
+            "name": "Label",
+            "label": "Text Label",
+            "text": "Description"
+        },
+        "picture-plugin": {
+            "name": "Picture",
+            "widgetName": "Image"
+        }
+    }
+}

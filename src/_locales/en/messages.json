@@ -1,0 +1,11 @@
+{
+    "appName": {
+        "message": "The-Daily-Prophet: productivity new tab"
+    },
+    "appDescription": {
+        "message": "Customizable new tab: compose your own page from widgets"
+    },
+    "appActionTitle": {
+        "message": "Open new tab"
+    }
+}

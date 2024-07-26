@@ -1,0 +1,24 @@
+.ShortcutsHelp {
+    display: flex;
+    flex-direction: column;
+    // gap: 18px;
+
+    .shortcut-row {
+        display: flex;
+        gap: 12px;
+
+        &:not(:last-child) {
+            padding-bottom: 14px;
+            border-bottom: 1px solid rgba(174, 174, 174, 0.133);
+            margin-bottom: 12px;
+        }
+
+
+        .hint-wrapper {
+            align-items: center;
+            min-width: 140px;
+            display: flex;
+            gap: 8px;
+        }
+    }
+}

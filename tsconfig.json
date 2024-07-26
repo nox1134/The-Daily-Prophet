@@ -1,0 +1,33 @@
+{
+    "include": ["declarations.d.ts", "src/**/*", "webpack.config.ts"],
+    "exclude": ["node_modules", "dist", "safari-app"],
+    "compilerOptions": {
+        "lib": ["es6", "es2023", "dom", "dom.iterable", "WebWorker"],
+        "baseUrl": ".",
+        "paths": {
+            "@utils/*": ["./src/utils/*"],
+            "@components/*": ["./src/components/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@plugins/*": ["./src/plugins/*"],
+            "@translations/*": ["./src/translations/*"]
+        },
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "allowSyntheticDefaultImports": true,
+        "strictNullChecks": true,
+        "module": "esnext",
+        "target": "esnext",
+        "jsx": "preserve", // Will be compiled with Babel anyway
+        "allowJs": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+    },
+
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        },
+        "files": true,
+        "include": ["declarations.d.ts"]
+    }
+}

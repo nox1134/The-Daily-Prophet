@@ -1,0 +1,81 @@
+@use 'sass:color';
+@use './utils.scss' as utils;
+
+:root {
+    font-size: 16px;
+    // --background-image: url("/assets/images/backgrounds/greenery.jpg");
+    --background-image: transparent;
+    --accent: #{utils.$accent};
+    --accent-subtle: #{color.scale(utils.$accent, $alpha: -50%)};
+    --background: #{utils.$background};
+    --background-lighter: #{color.scale(utils.$background, $lightness: +5%)};
+    --text: #{utils.$text};
+    --text-hsl: #{utils.$text-hsl};
+    --text-subtle-1: #{color.scale(utils.$text, $alpha: -15%)};
+    --text-subtle-2: #{color.scale(utils.$text, $alpha: -35%)};
+    --text-border: #{color.scale(utils.$text, $alpha: -75%)};
+    --text-disabled: #{color.scale(utils.$text, $blackness: +45%)};
+    --icon-color: hsla(var(--text-hsl) /  0.4);
+    --error-color: hsl(0, 87%, 60%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+button,
+input {
+    font-size: inherit;
+    color: inherit;
+    letter-spacing: inherit;
+    font-family: inherit;
+}
+
+label {
+    font-weight: 500;
+    margin-bottom: 6px;
+    display: block;
+    margin-left: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.88rem;
+}
+
+h6 {
+    font-size: 0.75rem;
+}
+
+a,
+a:visited {
+    color: inherit
+}

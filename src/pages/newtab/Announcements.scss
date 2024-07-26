@@ -1,0 +1,35 @@
+.announcements-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: hsl(200.44deg 79.13% 22.55%);
+    border-bottom: transparent;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .announcements-content {
+    display: flex;
+    align-items: center;
+    animation: scroll-left 20s linear infinite;
+  }
+  
+  .announcement-item {
+    margin-right: 50px;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

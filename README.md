@@ -14,6 +14,7 @@ The following widgets have been used in our project:
 10. Meta - Option to Enable/Disable Widgets
 11. ChatGPT
 12. Music
+13. Books and quote
 
 Additional widgets:
 1. Google and Youtube Search Bar
@@ -21,6 +22,7 @@ Additional widgets:
 3. Notes
 4. Weather
 5. Bookmark
+6. Calculator
 
 The project is written in Typescript. For UI, we used react and for styling we used SCSS.
 

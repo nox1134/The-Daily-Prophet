@@ -1,4 +1,4 @@
-This project is made as part of the Hyperverge hackathon for the company's placement drive. We've made a Digital Notice Board that can be set as the default new tab by using our Chrome extension.
+We've made a Digital Notice Board that can be set as the default new tab by using our Chrome extension.
 
 The following widgets have been used in our project:
 
